@@ -1,0 +1,13 @@
+* text=auto
+
+# Scripts
+*.sh eol=lf
+*.py eol=lf
+*.ps1 eol=crlf
+
+# Keep notebooks as-is
+*.ipynb -text
+
+# Optional linguist hints (ignored data dirs)
+D.Data/** linguist-vendored
+reserve/** linguist-vendored

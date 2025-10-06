@@ -1,0 +1,30 @@
+<svg width="420" height="180" viewBox="0 0 420 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Top CatBoost private scores">
+	<title>Top CatBoost private scores</title>
+	<rect x="0" y="0" width="420" height="180" fill="#ffffff"/>
+	<text x="10" y="18" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#222">Top CatBoost (Private)</text>
+	<!-- axes -->
+	<line x1="60" y1="150" x2="400" y2="150" stroke="#888" stroke-width="1"/>
+	<line x1="60" y1="40" x2="60" y2="150" stroke="#888" stroke-width="1"/>
+	<text x="28" y="154" font-family="Arial" font-size="10" fill="#666">0.68</text>
+	<text x="20" y="44" font-family="Arial" font-size="10" fill="#666">0.685</text>
+	<!-- bars (scaled so 0.68 -> 0 height, 0.685 -> 100 px) -->
+	<!-- scale: height = (score - 0.68) * 2000 -->
+	<!-- 2.1.16 = 0.68480 -> (0.00480)*2000 = 9.6 ~ 96 px -->
+	<!-- 2.1.15 = 0.68478 -> 95.6 px -->
+	<!-- 2.1.18 = 0.68455 -> 91.0 px -->
+	<!-- 2.1.17 = 0.68441 -> 88.2 px -->
+	<rect x="85" y="54" width="50" height="96" fill="#4c78a8"/>
+	<rect x="155" y="54.4" width="50" height="95.6" fill="#f58518"/>
+	<rect x="225" y="59" width="50" height="91" fill="#54a24b"/>
+	<rect x="295" y="61.8" width="50" height="88.2" fill="#e45756"/>
+	<!-- labels -->
+	<text x="110" y="170" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">2.1.16</text>
+	<text x="180" y="170" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">2.1.15</text>
+	<text x="250" y="170" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">2.1.18</text>
+	<text x="320" y="170" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">2.1.17</text>
+	<!-- values -->
+	<text x="110" y="48" text-anchor="middle" font-family="Arial" font-size="10" fill="#111">0.6848</text>
+	<text x="180" y="48" text-anchor="middle" font-family="Arial" font-size="10" fill="#111">0.68478</text>
+	<text x="250" y="48" text-anchor="middle" font-family="Arial" font-size="10" fill="#111">0.68455</text>
+	<text x="320" y="48" text-anchor="middle" font-family="Arial" font-size="10" fill="#111">0.68441</text>
+</svg>

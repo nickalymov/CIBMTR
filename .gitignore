@@ -1,0 +1,60 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environments / secrets
+.env
+.venv/
+venv/
+kaggle.json
+
+# Data directories (private/heavy)
+D.Data/
+reserve/
+transform_target/__pycache__/
+
+# Generic data/output dirs
+data/
+outputs/
+models/
+
+# Large artifacts
+*.pth
+*.pkl
+*.joblib
+*.model
+*.bin
+
+# Documents and raw data formats (kept out by dir rules above)
+*.sas7bdat
+*.rtf
+*.xlsx
+*.xls
+*.parquet
+
+# Submissions (keep templates in repo via explicit allow if needed)
+submission.csv
+submissions/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.iml
+
