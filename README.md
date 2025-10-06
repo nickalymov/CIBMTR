@@ -21,10 +21,10 @@ Code and notebooks from my solution for the Kaggle/CIBMTR research competition o
 
 ```mermaid
 flowchart LR
-    A[Download data\n(Kaggle API)] --> B[Preprocess & Features\n(Data notebooks)]
-    B --> C[Train models\n(CatBoost, NN)]
+    A[Download data<br/>(Kaggle API)] --> B[Preprocess & Features<br/>(Data notebooks)]
+    B --> C[Train models<br/>(CatBoost, NN)]
     C --> D[Validation & Selection]
-    D --> E[Inference\n(Generate submission.csv)]
+    D --> E[Inference<br/>(Generate submission.csv)]
 ```
 
 ## Results
